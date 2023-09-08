@@ -1,0 +1,88 @@
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Courgette', cursive;
+    
+}
+.landing{
+    width: 90%;
+    height: 75vh;
+    border-radius: 50px;
+    position: relative;
+    margin: 5%;
+    background: rgb(236, 248, 248) url(images/travel.png) no-repeat fixed bottom;
+
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    display: none;   
+}
+.item{
+    display: inline-block;
+    border: 3px solid darkgray;
+    border-radius: 50%;
+    width: 100px;
+    margin: 45px 20px;
+    transition: all .4s;
+}
+.item:hover{
+    border: 3.5px solid purple;
+    cursor: pointer;
+}
+.question{
+    position: absolute;
+    color: #263238e3;
+    left: 3%;
+    top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: 100%;
+}
+.buttons{
+    position: absolute;
+    left: 40%;
+    bottom:2%;
+    
+}
+.migrations{
+    
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+}
+.migration{
+    font-size: 35px;
+    margin: 20px;
+    transition: all .3s;
+}
+.migration:hover{
+    cursor: pointer;
+    color: purple;
+}
+#select{
+    min-width: 40%;
+    height: 40px;
+}
+.prevBtn{
+    font-size: 15px;
+    color: #ffff;
+    font-family: cursive;
+    background-color: rgba(72, 173, 42, 0.438);
+    border-radius: 30px;
+    padding: 8px 10px;
+}
+.nextBtn{
+    font-size: 15px;
+    color: #ffff;
+    font-family: cursive;
+    background-color: rgba(87, 182, 241, 0.521);
+    border-radius: 30px;
+    padding: 8px 10px;
+}

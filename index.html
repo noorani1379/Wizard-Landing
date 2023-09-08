@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="form">
+  <div class="landing">
+
+      <div class="tab items">
+          <p class="question">Where do U wanna to go?😃</p>
+          <div class="item canada el-validataion">
+              <img src="images/canada.png" alt="canada">
+          </div>
+          <div class="item germany el-validataion">
+            <img src="images/germany.png" alt="germany">
+          </div>
+          <div class="item turkey el-validataion">
+            <img src="images/turkey.png" alt="turkey">
+          </div>
+      </div>
+    
+
+     <div class="tab migrations">
+        <div class="migration educational el-validataion"><i class="fa fa-book"></i>Educational</div>
+        <div class="migration work el-validataion"><i class="fa fa-gear"></i>work</div>
+        <div class="migration investmen el-validataion"><i class="fa fa-money"></i>Investmen</div>
+        <select hidden id="select"></select>
+     </div> 
+
+    <div class="buttons">
+     <button  class="prevBtn" onclick="nextPrev(-1)">Previous</button>
+     <button  class="nextBtn" onclick="nextPrev(1)">Next</button>
+    </div>
+    
+  </div>
+ <script src="app.js"></script>       
+</body>
+</html>
